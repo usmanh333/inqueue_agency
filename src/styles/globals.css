@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font Face */
+@font-face {
+  font-family: 'CairoliNow';
+  src: url('../pages/fonts/CairoliNow_Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'CairoliNow', sans-serif !important;
+  background-color: #262626;
+}
