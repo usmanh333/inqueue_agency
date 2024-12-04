@@ -2,15 +2,9 @@
 import React from "react";
 
 const ProjectsSection = () => {
-  const items = [
-    { id: 1, title: "Brading SlideShow 1" },
-    { id: 2, title: "Brading SlideShow 2" },
-    { id: 3, title: "Brading SlideShow 3" },
-    { id: 4, title: "Brading SlideShow 4" },
-  ];
   return (
     <>
-      <section className="text-center flex justify-center relative">
+      <section className="text-center flex justify-center relative mt-4 mb-8">
         <div className="w-2/4 text-white relative z-10">
           <h1 className="text-5xl text-left font-bold text-white">
             Our Projects
@@ -28,7 +22,7 @@ const ProjectsSection = () => {
       <section className="text-center flex justify-center ">
         <div className="w-2/4 text-white relative z-10">
           {[0, 1, 2, 3].map((_, index: number) => (
-            <div className={`text-left border border-[#C7C7C7] p-4 rounded-3xl ${index % 2 === 0 ? "bg-[#323232]" :"bg-[#323232]/20"} mb-5`}>
+            <div className={`text-left border border-[#C7C7C7] p-4 rounded-3xl ${index % 2 === 0 ? "bg-[#323232]" :"bg-[#323232]/20"} mb-10`}>
               <h1 className="text-3xl font-bold">Logo and Branding</h1>
               <span className="text-xs px-2 py-1 bg-[#7E7E7E] rounded-sm mr-3">
                 Logo design

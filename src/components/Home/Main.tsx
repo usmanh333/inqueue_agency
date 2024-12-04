@@ -9,7 +9,7 @@ const Main = () => {
   return (
     <div className="py-24">
       <main className="flex flex-col gap-5 justify-center">
-         <HeroSection />
+        <HeroSection />
         <ProjectsSection />
         <ServicesSection />
         <TestimonialsSection />

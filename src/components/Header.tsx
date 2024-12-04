@@ -13,7 +13,7 @@ const Header: React.FC = () => {
               <li className="nav-item mx-2">
                 <a
                   className="nav-link text-[#C9C9C9] font-[400] text-sm"
-                  href="#"
+                  href="projects"
                 >
                   Projects
                 </a>
@@ -21,7 +21,7 @@ const Header: React.FC = () => {
               <li className="nav-item mx-2">
                 <a
                   className="nav-link text-[#C9C9C9] font-[400] text-sm"
-                  href="#"
+                  href="ourteam"
                 >
                   Team
                 </a>
@@ -41,7 +41,7 @@ const Header: React.FC = () => {
               <li className="nav-item mx-2">
                 <a
                   className="nav-link text-[#C9C9C9] font-[400] text-sm"
-                  href="#"
+                  href="/about"
                 >
                   About Us
                 </a>

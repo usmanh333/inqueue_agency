@@ -2,7 +2,7 @@ const HeroSection = () => {
   return (
     <>
       {/* Section 1 */}
-      <section className="text-center flex justify-center relative mb-6">
+      <section className="text-center flex justify-center relative">
         <div className="text-4xl md:text-6xl font-bold w-2/4 text-white relative z-10">
           <h1 className="text-4xl md:text-6xl font-bold text-white">
             We craft purposeful
@@ -24,11 +24,11 @@ const HeroSection = () => {
         </div>
       </section>
 
-      <h1 className="text-center mt-8 text-[#C9C9C9] font-light text-[16px]">
+      <h1 className="text-center mt-2 text-[#C9C9C9] font-light text-[16px]">
         Turn your vision into reality with impactful and unforgettable branding
         solutions
       </h1>
-      <div className="flex justify-center items-center gap-4 mt-8">
+      <div className="flex justify-center items-center gap-4 mt-4">
         <button className="bg-[#F2B705] px-5 py-2 rounded-md">
           Book a Call
         </button>
@@ -39,7 +39,7 @@ const HeroSection = () => {
 
       {/* section 2 */}
 
-      <section className="mt-10">
+      <section className="mt-2">
         <div className="text-center flex justify-center my-9">
           {[0, 1, 2, 3, 4, 5].map(() => (
             <div className="px-3 p-2.5 bg-[#444444] mr-16">
@@ -65,7 +65,7 @@ const HeroSection = () => {
       </section>
 
       {/* section 3 */}
-      <section className="text-center flex justify-center mb-9 mt-28">
+      <section className="text-center flex justify-center mb-9 mt-8">
         <div className="text-3xl md:text-3xl font-medium w-2/4 text-white relative z-10">
           <h1 className="text-3xl md:text-3xl font-medium text-white">
             Where innovation meets artistry!
@@ -83,7 +83,7 @@ const HeroSection = () => {
         </div>
       </section>
 
-      <section className="flex justify-center text-center my-14">
+      <section className="flex justify-center text-center my-8">
         <div className="w-2/4 flex justify-center text-center items-center bg-[#444444] h-[400px] rounded-3xl">
           <img
             src="/icons/play-icon.png"
