@@ -1,17 +1,16 @@
 import React from "react";
 
 export default function Main() {
-  // Dummy data for the album layout with varying heights and widths
   const projects = [
-    { id: 1, height: "200px", width: "2fr" }, // Grid spans with fractions
-    { id: 2, height: "250px", width: "1fr" },
+    { id: 1, height: "200px", width: "2fr" },
+    { id: 2, height: "220px", width: "1fr" },
     { id: 3, height: "100px", width: "1fr" },
     { id: 4, height: "200px", width: "1fr" },
     { id: 5, height: "150px", width: "2fr" },
     { id: 6, height: "200px", width: "1fr" },
-    { id: 7, height: "120px", width: "1fr" },
+    { id: 7, height: "230px", width: "1fr" },
     { id: 8, height: "180px", width: "2fr" },
-    { id: 9, height: "160px", width: "1fr" },
+    { id: 9, height: "110px", width: "1fr" },
   ];
 
   return (
@@ -23,11 +22,17 @@ export default function Main() {
               Explore Our Projects
             </h1>
           </div>
+          <div className="flex justify-end absolute bottom-[-7px] left-0 right-[29%] z-0">
+            <img
+              src="/label/bottom-shade.png"
+              alt="inqueuestudio-linkedin"
+              className="w-[27%] object-cover"
+            />
+          </div>
         </section>
       </div>
 
-      {/* Album Section with Dynamic Grid */}
-      <div className="flex flex-col items-center my-8">
+      <div className="flex flex-col items-center mt-12 mb-16">
         <div
           className="w-[80%] grid gap-4"
           style={{
@@ -44,12 +49,13 @@ export default function Main() {
                 gridColumn: `span ${project.width}`, // Adjust for dynamic width
                 backgroundColor: "#444444",
               }}
-              className="rounded-lg flex justify-center items-center"
+              className="rounded-lg flex justify-center items-center cursor-pointer"
+              onClick={()=>globalThis.location.href = `/projects/${project.id}`}
             >
               <img
-                src="/path/to/camera-icon.png" // Placeholder for camera icon
+                src="/icons/camera.png"
                 alt={`Project ${project.id}`}
-                className="w-12 h-12 opacity-50"
+                className="w-12 h-12 opacity-50 object-contain"
               />
             </div>
           ))}
