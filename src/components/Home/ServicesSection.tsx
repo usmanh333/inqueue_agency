@@ -4,11 +4,11 @@ import React from "react";
 const ServicesSection = () => {
   return (
     <>
-      <div className="flex justify-center gap-3">
-        <div className="w-[18%]">
+      <div className="flex justify-center gap-3 services-main">
+        <div className="w-[18%] services-mob-init">
           <div className="text-center flex justify-center relative">
             <div className="text-white relative z-10">
-              <h1 className="text-5xl text-left font-bold text-white">
+              <h1 className="text-5xl text-left font-bold text-white services-mob-heading">
                 Our Services
               </h1>
             </div>
@@ -22,7 +22,7 @@ const ServicesSection = () => {
           </div>
         </div>
         {[0, 1].map(() => (
-          <div className="w-[18%]">
+          <div className="w-[18%] services-mob-init">
             <div
               className={`text-left border border-[#C7C7C7] p-4 rounded-lg bg-[#444444] mb-5`}
             >
@@ -44,9 +44,9 @@ const ServicesSection = () => {
           </div>
         ))}
       </div>
-      <div className="flex justify-center gap-3">
+      <div className="flex justify-center gap-3 services-main">
         {[0, 1, 2].map(() => (
-          <div className="w-[18%]">
+          <div className="w-[18%] services-mob-init">
             <div
               className={`text-left border border-[#C7C7C7] p-4 rounded-lg bg-[#444444] mb-5`}
             >

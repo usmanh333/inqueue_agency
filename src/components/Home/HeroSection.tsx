@@ -3,7 +3,7 @@ const HeroSection = () => {
     <>
       {/* Section 1 */}
       <section className="text-center flex justify-center relative">
-        <div className="text-4xl md:text-6xl font-bold w-2/4 text-white relative z-10">
+        <div className="text-4xl md:text-6xl font-bold w-fit text-white relative z-10">
           <h1 className="text-4xl md:text-6xl font-bold text-white">
             We craft purposeful
           </h1>
@@ -15,7 +15,7 @@ const HeroSection = () => {
             effective logos
           </h1>
         </div>
-        <div className="flex justify-center absolute bottom-[-16px] left-0 right-0 z-0">
+        <div className="flex justify-center absolute bottom-[-16px] left-0 right-0 z-0 mob-yellow">
           <img
             src="/label/bottom-shade.png"
             alt="inqueuestudio-linkedin"
@@ -39,7 +39,7 @@ const HeroSection = () => {
 
       {/* section 2 */}
 
-      <section className="mt-2">
+      {/* <section className="mt-2">
         <div className="text-center flex justify-center my-9">
           {[0, 1, 2, 3, 4, 5].map(() => (
             <div className="px-3 p-2.5 bg-[#444444] mr-16">
@@ -62,29 +62,29 @@ const HeroSection = () => {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* section 3 */}
       <section className="text-center flex justify-center mb-9 mt-8">
-        <div className="text-3xl md:text-3xl font-medium w-2/4 text-white relative z-10">
-          <h1 className="text-3xl md:text-3xl font-medium text-white">
+        <div className="text-3xl md:text-3xl font-medium w-2/4 text-white relative z-10 mob-hero">
+          <h1 className="text-3xl md:text-3xl font-medium text-white mob-hero-text">
             Where innovation meets artistry!
           </h1>
-          <h1 className="text-3xl md:text-3xl font-medium text-white">
+          <h1 className="text-3xl md:text-3xl font-medium text-white mob-hero-text">
             Our design agency is committed to creating unique,
           </h1>
 
-          <h1 className="text-3xl md:text-3xl font-medium text-white">
+          <h1 className="text-3xl md:text-3xl font-medium text-white mob-hero-text">
             unforgettable visual experiences for brands that{" "}
           </h1>
-          <h1 className="text-3xl md:text-3xl font-medium text-white">
+          <h1 className="text-3xl md:text-3xl font-medium text-white mob-hero-text">
             strive to stand out.{" "}
           </h1>
         </div>
       </section>
 
       <section className="flex justify-center text-center my-8">
-        <div className="w-2/4 flex justify-center text-center items-center bg-[#444444] h-[400px] rounded-3xl">
+        <div className="w-2/4 flex justify-center text-center items-center bg-[#444444] h-[400px] rounded-3xl mob-hero-video">
           <img
             src="/icons/play-icon.png"
             alt="inqueuestudio-linkedin"

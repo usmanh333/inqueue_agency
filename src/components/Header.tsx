@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       >
         <div className="container mx-auto">
           <div className="container p-8" id="navbarSupportedContent">
-            <ul className="flex justify-center items-center gap-6 mb-2 mb-lg-0">
+            <ul className="flex justify-center items-center gap-6 mb-2 mb-lg-0 header-mob">
               <li className="nav-item mx-2">
                 <a
                   className="nav-link text-[#C9C9C9] font-[400] text-sm"

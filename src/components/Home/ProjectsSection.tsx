@@ -4,13 +4,13 @@ import React from "react";
 const ProjectsSection = () => {
   return (
     <>
-      <section className="text-center flex justify-center relative mt-4 mb-8">
-        <div className="w-2/4 text-white relative z-10">
+      <section className="text-center flex justify-center relative mt-4 mb-8 mob-proj-init">
+        <div className="w-2/4 text-white relative z-10 mob-proj">
           <h1 className="text-5xl text-left font-bold text-white">
             Our Projects
           </h1>
         </div>
-        <div className="flex justify-center absolute bottom-[-4px] left-0 right-[23%] z-0">
+        <div className="flex justify-center absolute bottom-[-4px] left-0 right-[23%] z-0 mob-proj-img">
           <img
             src="/label/bottom-shade.png"
             alt="inqueuestudio-linkedin"
@@ -20,7 +20,7 @@ const ProjectsSection = () => {
       </section>
 
       <section className="text-center flex justify-center ">
-        <div className="w-2/4 text-white relative z-10">
+        <div className="w-2/4 text-white relative z-10 mob-proj-section">
           {[0, 1, 2, 3].map((_, index: number) => (
             <div className={`text-left border border-[#C7C7C7] p-4 rounded-3xl ${index % 2 === 0 ? "bg-[#323232]" :"bg-[#323232]/20"} mb-10`}>
               <h1 className="text-3xl font-bold">Logo and Branding</h1>

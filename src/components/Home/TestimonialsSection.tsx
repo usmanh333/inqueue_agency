@@ -9,9 +9,9 @@ const TestimonialsSection = () => {
           <h1 className="text-4xl font-bold text-white">Hear from them</h1>
         </div>
       </div>
-      <div className="flex justify-center gap-3">
+      <div className="flex justify-center gap-3 last1">
         {[0, 1, 2].map(() => (
-          <div className="w-[18%]">
+          <div className="w-[18%] services-mob-init">
             <div
               className={`text-left border border-[#C7C7C7] p-4 rounded-lg bg-[#444444] mb-5`}
             >
