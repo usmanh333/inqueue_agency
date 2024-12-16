@@ -34,7 +34,7 @@ const Header: React.FC = () => {
                   <img
                     src={"/images/logo.png"}
                     alt="inqueuestudio"
-                    className="w-[146px] h-[36px] object-contain"
+                    className="w-[146px] h-[36px] object-contain inqueue"
                   />
                 </a>
               </li>
