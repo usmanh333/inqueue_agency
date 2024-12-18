@@ -7,7 +7,7 @@ import TestimonialsSection from "./TestimonialsSection";
 
 const Main = () => {
   return (
-    <div className="py-16">
+    <div className="py-16 padd-mob">
       <main className="flex flex-col gap-5 justify-center">
         <HeroSection />
         <ProjectsSection />

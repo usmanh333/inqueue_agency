@@ -4,14 +4,14 @@ const HeroSection = () => {
       {/* Section 1 */}
       <section className="text-center flex justify-center relative">
         <div className="text-4xl md:text-6xl font-bold w-fit text-white relative z-10">
-          <h1 className="text-4xl md:text-6xl font-bold text-white">
+          <h1 className="text-4xl md:text-6xl font-bold text-white head-mobile">
             We craft purposeful
           </h1>
-          <h1 className="text-4xl md:text-6xl font-bold text-white">
+          <h1 className="text-4xl md:text-6xl font-bold text-white head-mobile">
             brand identities and{" "}
           </h1>
 
-          <h1 className="text-4xl md:text-6xl font-bold text-white">
+          <h1 className="text-4xl md:text-6xl font-bold text-white head-mobile">
             effective logos
           </h1>
         </div>
@@ -19,12 +19,12 @@ const HeroSection = () => {
           <img
             src="/label/bottom-shade.png"
             alt="inqueuestudio-linkedin"
-            className="w-[34%] object-cover"
+            className="w-[34%] max-w-[240px] sm:max-w-[400px] md:max-w-[500px] object-cover"
           />
         </div>
       </section>
 
-      <h1 className="text-center mt-2 text-[#C9C9C9] font-light text-[16px]">
+      <h1 className="text-center mt-2 text-[#C9C9C9] font-light text-[16px] sub-head-mobile">
         Turn your vision into reality with impactful and unforgettable branding
         solutions
       </h1>

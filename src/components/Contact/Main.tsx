@@ -3,16 +3,16 @@ export default function Main() {
     <>
       <div>
         <section className="text-center flex justify-center relative mt-8">
-          <div className="text-4xl md:text-6xl font-bold w-2/4 text-white relative z-10">
-            <h1 className="text-4xl md:text-6xl font-bold text-white about-mob-head-1">
+          <div className="text-4xl md:text-6xl font-bold w-2/4 text-white relative z-10 about-mob-head-1">
+            <h1 className="text-4xl md:text-6xl font-bold text-white">
               Let’s make it a reality!{" "}
             </h1>
           </div>
-          <div className="flex justify-end absolute bottom-0 left-0 right-[27%] z-0">
+          <div className="flex justify-center absolute bottom-[8px] right-[55px] z-0 mob-proj-img-contact">
             <img
               src="/label/bottom-shade.png"
               alt="inqueuestudio-linkedin"
-              className="w-[24%] object-cover"
+              className="w-full max-w-[80px] sm:max-w-[90px] md:max-w-[90px] object-cover"
             />
           </div>
         </section>
@@ -78,7 +78,9 @@ export default function Main() {
             />
           </div>
           <div className="flex justify-center my-10">
-            <button className="px-8 rounded-md py-2 text-black bg-[#CE9E0B] text-lg about-mob-para">Let"s Connect!</button>
+            <button className="px-8 rounded-md py-2 text-black bg-[#CE9E0B] text-lg about-mob-para">
+              Let"s Connect!
+            </button>
           </div>
         </div>
       </div>

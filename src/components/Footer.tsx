@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="container mx-auto py-8 border-t border-b border-[#C9C9C9]">
+    <footer className="container mx-auto py-8 border-t border-b border-[#C9C9C9] footer-main-mob">
       <div className="container px-[8%] text-center">
         <div className="flex justify-between items-center">
           <div>
@@ -19,15 +19,15 @@ const Footer = () => {
             </a>
           </div>
           <div>
-            <p className="text-[#818181] font-[400] text-xs uppercase">
+            <p className="text-[#818181] font-[400] text-xs uppercase footer-text">
               Need Support?
             </p>
-            <p className="text-[#C9C9C9] font-[400] text-xs">
+            <p className="text-[#C9C9C9] font-[400] text-xs footer-text">
               Inqueue@gmail.com
             </p>
           </div>
           <div>
-            <p className="text-[#818181] font-[400] text-xs   ">Follow us On</p>
+            <p className="text-[#818181] font-[400] text-xs footer-text">Follow us On</p>
             <p className="flex justify-between mt-1 items-center text-[#C9C9C9] font-[400] text-xs">
               <img
                 src={"/social-icons/insta.png"}
