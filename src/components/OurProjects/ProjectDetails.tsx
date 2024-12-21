@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function ProjectDetails() {
   const projects = [
     { id: 1, height: "200px", width: "1" },
@@ -31,7 +33,7 @@ export default function ProjectDetails() {
             }}
             className="rounded-2xl border border-[#FFFFFF] flex justify-center items-center cursor-pointer"
           >
-            <img
+            <Image
               src="/icons/camera.png"
               alt="Project 1"
               className="w-12 h-12 opacity-50 object-contain"
@@ -128,7 +130,7 @@ export default function ProjectDetails() {
                 (globalThis.location.href = `/projects/${project.id}`)
               }
             >
-              <img
+              <Image
                 src="/icons/camera.png"
                 alt={`Project ${project.id}`}
                 className="w-12 h-12 opacity-50 object-contain"

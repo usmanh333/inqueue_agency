@@ -1,4 +1,6 @@
 import React from "react";
+import Image from 'next/image';
+import Link from "next/link";
 
 const Header: React.FC = () => {
   return (
@@ -11,48 +13,48 @@ const Header: React.FC = () => {
           <div className="container p-8" id="navbarSupportedContent">
             <ul className="flex justify-center items-center gap-6 mb-2 mb-lg-0 header-mob">
               <li className="nav-item mx-2">
-                <a
+                <Link
                   className="nav-link text-[#C9C9C9] font-[400] text-sm"
                   href="projects"
                 >
                   Projects
-                </a>
+                </Link>
               </li>
               <li className="nav-item mx-2">
-                <a
+                <Link
                   className="nav-link text-[#C9C9C9] font-[400] text-sm"
                   href="ourteam"
                 >
                   Team
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="navbar-brand mx-auto d-none d-lg-block text-center"
                   href="/"
                 >
-                  <img
+                  <Image
                     src={"/images/logo.png"}
                     alt="inqueuestudio"
                     className="w-[146px] h-[36px] object-contain inqueue"
                   />
-                </a>
+                </Link>
               </li>
               <li className="nav-item mx-2">
-                <a
+                <Link
                   className="nav-link text-[#C9C9C9] font-[400] text-sm"
                   href="/about"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
               <li className="nav-item mx-2">
-                <a
+                <Link
                   className="nav-link text-[#C9C9C9] font-[400] text-sm"
                   href="/contact"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

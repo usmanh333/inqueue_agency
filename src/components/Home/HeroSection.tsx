@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const HeroSection = () => {
   return (
     <>
@@ -16,7 +18,7 @@ const HeroSection = () => {
           </h1>
         </div>
         <div className="flex justify-center absolute bottom-[-16px] left-0 right-0 z-0 mob-yellow">
-          <img
+          <Image
             src="/label/bottom-shade.png"
             alt="inqueuestudio-linkedin"
             className="w-[34%] max-w-[240px] sm:max-w-[400px] md:max-w-[500px] object-cover"
@@ -43,7 +45,7 @@ const HeroSection = () => {
         <div className="text-center flex justify-center my-9">
           {[0, 1, 2, 3, 4, 5].map(() => (
             <div className="px-3 p-2.5 bg-[#444444] mr-16">
-              <img
+              <Image
                 src="/icons/tick-icon.png"
                 alt="inqueuestudio-linkedin"
                 className="w-[45px] h-[45px] object-cover"
@@ -54,7 +56,7 @@ const HeroSection = () => {
         <div className="text-center flex justify-center my-9 ml-[148px]">
           {[0, 1, 2, 3, 4, 5].map(() => (
             <div className="px-3 p-2.5 bg-[#444444] mr-16">
-              <img
+              <Image
                 src="/icons/tick-icon.png"
                 alt="inqueuestudio-linkedin"
                 className="w-[45px] h-[45px] object-cover"
@@ -85,7 +87,7 @@ const HeroSection = () => {
 
       <section className="flex justify-center text-center my-8">
         <div className="w-2/4 flex justify-center text-center items-center bg-[#444444] h-[400px] rounded-3xl mob-hero-video">
-          <img
+          <Image
             src="/icons/play-icon.png"
             alt="inqueuestudio-linkedin"
             className="w-[70px] h-[70px] object-contain"

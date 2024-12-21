@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Main() {
   return (
     <>
@@ -10,7 +12,7 @@ export default function Main() {
             <h1 className="relative z-10">Inqueue</h1>
           </div>
           <div className="absolute inset-0 flex justify-center items-end pointer-events-none z-0 team-mob">
-            <img
+            <Image
               src="/label/bottom-shade.png"
               alt="inqueuestudio-linkedin"
               className="w-[110px] sm:w-[110px] md:w-[110px] object-cover"

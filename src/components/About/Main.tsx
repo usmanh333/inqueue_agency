@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 function Main() {
   return (
     <>
@@ -9,7 +11,7 @@ function Main() {
             </h1>
           </div>
           <div className="flex justify-center absolute -bottom-2 left-1/2 translate-x-[-50%] z-0 about-img-mob">
-            <img
+            <Image
               src="/label/bottom-shade.png"
               alt="inqueuestudio-linkedin"
               className="w-[130px] sm:w-[130px] md:w-[130px] object-cover"
@@ -40,7 +42,7 @@ function Main() {
         </section>
         <h1 className="text-center mt-5 text-[#C9C9C9] font-light text-[16px] about-mob-para">
           <span className="text-[#F3B706] font-medium">Graphic Design:</span>{" "}
-          Whether it's logos, branding, or print materials, we create designs
+          Whether it&apos;s logos, branding, or print materials, we create designs
           that capture
         </h1>
         <h1 className="text-center mt-2 text-[#C9C9C9] font-light text-[16px] about-mob-para">
@@ -112,24 +114,24 @@ function Main() {
         <section className="text-center flex justify-center relative mt-8">
           <div className="text-3xl font-bold w-2/4 text-white relative z-10 about-mob-head-2">
             <h1 className="text-3xl font-bold text-white">
-              Let’s Create Together{" "}
+              Let&apos;s Create Together{" "}
             </h1>
           </div>
         </section>
         <h1 className="text-center mt-5 text-[#C9C9C9] font-light text-[16px] about-mob-para">
-          Join us on a journey of creativity and innovation. Whether you're a
+          Join us on a journey of creativity and innovation. Whether you&apos;re a
           startup looking for a fresh
         </h1>
         <h1 className="text-center mt-2 text-[#C9C9C9] font-light text-[16px] about-mob-para">
           identity or an established brand aiming to reinvent your image,
-          Inqueue is here to help. Let's create
+          Inqueue is here to help. Let&apos;s create
         </h1>
         <h1 className="text-center mt-2 text-[#C9C9C9] font-light text-[16px] about-mob-para">
           something amazing together!
         </h1>
         <div className="text-center my-8 main-btn-about">
           <button className="px-2.5 py-1 rounded-sm bg-[#F2B705] text-black text-sm mb-2 about-mob-para-botton">
-            Let's connect and turn your vision into reality!{" "}
+            Let&apos;s connect and turn your vision into reality!{" "}
           </button>
         </div>
       </div>

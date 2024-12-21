@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 export default function Main() {
   const projects = [
@@ -23,7 +24,7 @@ export default function Main() {
             </h1>
           </div>
           <div className="absolute bottom-[-10px] left-[50%] transform -translate-x-[50%] pointer-events-none z-0 projects-img-mob">
-            <img
+            <Image
               src="/label/bottom-shade.png"
               alt="inqueuestudio-linkedin"
               className="w-[125px] sm:w-[150px] md:w-[175px] object-cover"
@@ -34,7 +35,7 @@ export default function Main() {
 
       <div className="flex flex-col items-center mt-12 mb-16">
         <div className="w-[90%] grid gap-4 projects-grid">
-          {projects.map((project, index) => (
+          {projects.map((project) => (
             <div
               key={project.id}
               style={{
@@ -47,7 +48,7 @@ export default function Main() {
                 (globalThis.location.href = `/projects/${project.id}`)
               }
             >
-              <img
+              <Image
                 src="/icons/camera.png"
                 alt={`Project ${project.id}`}
                 className="w-12 h-12 opacity-50 object-contain"

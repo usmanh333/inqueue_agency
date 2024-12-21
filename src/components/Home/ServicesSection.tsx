@@ -1,5 +1,6 @@
 // src/components/ServicesSection.js
 import React from "react";
+import Image from 'next/image';
 
 const ServicesSection = () => {
   return (
@@ -13,7 +14,7 @@ const ServicesSection = () => {
               </h1>
             </div>
             <div className="flex justify-center absolute bottom-[-4px] left-0 right-[23%] z-0 mob-proj-img-services">
-              <img
+              <Image
                 src="/label/bottom-shade.png"
                 alt="inqueuestudio-linkedin"
                 className="w-[170px] max-w-[175px] sm:max-w-[178px] md:max-w-[178px] object-cover"

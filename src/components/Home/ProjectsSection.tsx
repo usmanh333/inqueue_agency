@@ -1,5 +1,6 @@
 // src/components/ProjectsSection.js
 import React from "react";
+import Image from 'next/image';
 
 const ProjectsSection = () => {
   return (
@@ -11,7 +12,7 @@ const ProjectsSection = () => {
           </h1>
         </div>
         <div className="flex justify-center absolute bottom-[-4px] left-0 right-[23%] z-0 mob-proj-img">
-          <img
+          <Image
             src="/label/bottom-shade.png"
             alt="inqueuestudio-linkedin"
             id="inqueuestudio-image"
