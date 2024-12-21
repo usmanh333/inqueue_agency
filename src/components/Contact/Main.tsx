@@ -2,20 +2,20 @@ export default function Main() {
   return (
     <>
       <div>
-        <section className="text-center flex justify-center relative mt-8">
-          <div className="text-4xl md:text-6xl font-bold w-2/4 text-white relative z-10 about-mob-head-1">
-            <h1 className="text-4xl md:text-6xl font-bold text-white">
-              Let’s make it a reality!{" "}
-            </h1>
-          </div>
-          <div className="flex justify-center absolute bottom-[8px] right-[55px] z-0 mob-proj-img-contact">
+      <section className="text-center flex justify-center relative mt-8">
+      <div className="text-4xl md:text-6xl font-bold w-2/4 text-white relative z-10 about-mob-head-1">
+        <h1 className="text-4xl md:text-6xl font-bold text-white relative inline-block">
+          Let’s make it a <span className="relative">
+            reality!
             <img
               src="/label/bottom-shade.png"
               alt="inqueuestudio-linkedin"
-              className="w-full max-w-[80px] sm:max-w-[90px] md:max-w-[90px] object-cover"
+              className="absolute bottom-0 left-1/2 translate-x-[-50%] translate-y-[100%] w-[100px] sm:w-[100px] md:w-[100px] object-cover z-20 contact-img-mob"
             />
-          </div>
-        </section>
+          </span>
+        </h1>
+      </div>
+    </section>
         <h1 className="text-center mt-2 text-[#C9C9C9] font-light text-[16px] about-mob-para">
           We’re excited to collaborate with you! Please share your details, &
           we’ll get
@@ -77,7 +77,7 @@ export default function Main() {
               className="w-full bg-transparent border-b border-[#A1A1A1] focus:border-[#CE9E0B] focus:outline-none placeholder-gray-400 text-white about-mob-para"
             />
           </div>
-          <div className="flex justify-center my-10">
+          <div className="flex justify-center my-10 about-mob-button-main">
             <button className="px-8 rounded-md py-2 text-black bg-[#CE9E0B] text-lg about-mob-para">
               Let"s Connect!
             </button>

@@ -24,10 +24,10 @@ body {
 } */
 
 @media (max-width: 769px) {
-  .services-head-mob{
+  .services-head-mob {
     font-size: 15px;
   }
-  .services-para-mob{
+  .services-para-mob {
     font-size: 10px;
   }
   .mob-proj > h1 {
@@ -111,63 +111,63 @@ body {
   .cards-mob > h1 {
     font-size: 20px;
   }
-  .block-mob-1{
+  .block-mob-1 {
     width: 70%;
   }
-  .block-mob-2{
+  .block-mob-2 {
     width: 30%;
     align-items: baseline;
   }
-  .block-mob-3{
+  .block-mob-3 {
     width: 65%;
     height: 180px;
   }
-  .block-mob-4{
+  .block-mob-4 {
     width: 35%;
     height: 180px;
   }
-  .cards-mob span{
+  .cards-mob span {
     font-size: 9px;
   }
-  .cards-mob-para{
+  .cards-mob-para {
     font-size: 10px;
   }
   .services-mob-init {
     width: fit-content;
     margin-bottom: 10px;
   }
-  .mob-pagination{
+  .mob-pagination {
     width: 10px;
     height: 10px;
   }
-  .last-section-main-mob{
+  .last-section-main-mob {
     margin: 10px 0;
   }
-  .last-section-main-mob > h1{
+  .last-section-main-mob > h1 {
     font-size: 12px;
     font-weight: 500;
   }
-  .last-section-mainbutton-mob{
+  .last-section-mainbutton-mob {
     font-size: 10px;
     font-weight: 600;
   }
-  .margin-adjust{
+  .margin-adjust {
     margin: 5px 0;
   }
-  .services-card{
+  .services-card {
     border-radius: 5px;
   }
   .services-main {
     margin: 0 25px;
     display: block;
   }
-  .footer-main-mob{
+  .footer-main-mob {
     padding: 20px 0;
   }
-  .footer-main-mob > .container{
+  .footer-main-mob > .container {
     padding: 0 10px;
   }
-  .footer-text{
+  .footer-text {
     font-size: 10px;
   }
   .last1 {
@@ -187,7 +187,7 @@ body {
   .about-mob-para {
     font-size: small;
   }
-  .about-mob-head-1{
+  .about-mob-head-1 {
     width: 100%;
   }
   .about-mob-head-1 > h1 {
@@ -205,8 +205,117 @@ body {
   }
   .contact-mob {
     width: 100%;
-    margin: 0 10px;
-    padding: 25px;
+    margin: 0 15px;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  .about-mob-button-main {
+    margin: 10px 0;
+  }
+  .about-mob-button-main > button {
+    padding: 5px 12px;
+  }
+  .contact-img-mob {
+    bottom: 5px;
+    width: 210px;
+  }
+  .about-mob-head-2 > h1 {
+    font-size: 25px;
+    white-space: nowrap;
+  }
+  .about-img-mob {
+    bottom: 5px;
+  }
+  .about-mob-head-2 {
+    width: 100%;
+  }
+  .about-mob-para-botton {
+    font-size: small;
+    padding: 5px;
+    margin: 5px 0;
+  }
+  .main-btn-about {
+    margin: 30px 0;
+  }
+  .team-job-mob {
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .team-mob {
+    bottom: 5px;
+  }
+  .team-mian-sec-mob {
+    padding: 10px 0;
+  }
+  .team-mian-sec-mob > main {
+    gap: 16px;
+  }
+  .sect-two-mob {
+    margin: 16px 0;
+  }
+  .sect-main-mob {
+    width: 90%;
+    border-radius: 16px;
+    padding: 16px;
+  }
+  .sect-submain-mob {
+    margin-top: 5px;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .wid-sec-one {
+    width: 100%;
+  }
+  .wid-sec-one-sub {
+    width: 100%;
+    padding: 120px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  .wid-sec-one > h1 {
+    font-size: small;
+  }
+  .mapped-mob {
+    padding: 15px;
+    border-radius: 8px;
+  }
+  .team-pic-mob {
+    height: 100px;
+    width: 100px;
+    border-radius: 3px;
+  }
+  .team-head {
+    font-size: 12px;
+    margin-top: 7px;
+  }
+  .team-para {
+    font-size: 10px;
+  }
+  .projects-img-mob {
+    justify-content: end;
+  }
+  .projects-img-mob {
+    bottom: 1px;
+  }
+  .projects-img-mob > img {
+    width: 250px;
+    max-width: 250px;
+  }
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-auto-rows: 10px; /* Dynamic row height scaling */
+}
+
+@media (min-width: 768px) {
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Exactly 3 items in a row */
+    grid-auto-rows: 10px; /* Dynamic row height scaling */
+    grid-row-end: span 10;
   }
 }
 
@@ -228,6 +337,13 @@ body {
 }
 
 @media (min-width: 769px) and (max-width: 3000px) {
+  .team-mob > img {
+    width: 250px;
+  }
+  .contact-img-mob {
+    bottom: 15px;
+    min-width: 210px;
+  }
   .mob-yellow {
     bottom: -12px !important;
     left: 48px !important;
@@ -235,6 +351,9 @@ body {
   #inqueuestudio-image {
     width: 245px !important;
     max-width: 245px !important;
+  }
+  .about-img-mob > img {
+    min-width: 310px;
   }
 }
 

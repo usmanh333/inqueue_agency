@@ -21,8 +21,8 @@ const ServicesSection = () => {
             </div>
           </div>
         </div>
-        {[0, 1].map(() => (
-          <div className="w-[18%] services-mob-init">
+        {[0, 1].map((_, index) => (
+          <div className="w-[18%] services-mob-init" key={index}>
             <div
               className={`text-left border border-[#C7C7C7] p-4 rounded-lg bg-[#444444] mb-5 services-card`}
             >
@@ -45,8 +45,8 @@ const ServicesSection = () => {
         ))}
       </div>
       <div className="flex justify-center gap-3 services-main">
-        {[0, 1, 2].map(() => (
-          <div className="w-[18%] services-mob-init">
+        {[0, 1, 2].map((_, index) => (
+          <div className="w-[18%] services-mob-init" key={index}>
             <div
               className={`text-left border border-[#C7C7C7] p-4 rounded-lg bg-[#444444] mb-5 services-card`}
             >

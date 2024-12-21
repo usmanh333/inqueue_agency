@@ -3,19 +3,20 @@ function Main() {
     <>
       <div className="about-mob-1">
         <section className="text-center flex justify-center relative mt-8">
-          <div className="text-4xl md:text-6xl font-bold w-2/4 text-white relative z-10 about-mob-head">
+          <div className="text-4xl md:text-6xl font-bold w-2/4 text-white relative z-10 about-mob-head-2">
             <h1 className="text-4xl md:text-6xl font-bold text-white">
               About Us{" "}
             </h1>
           </div>
-          <div className="flex justify-end absolute -bottom-1 left-0 right-[40%] z-0">
+          <div className="flex justify-center absolute -bottom-2 left-1/2 translate-x-[-50%] z-0 about-img-mob">
             <img
               src="/label/bottom-shade.png"
               alt="inqueuestudio-linkedin"
-              className="w-[32%] object-cover"
+              className="w-[130px] sm:w-[130px] md:w-[130px] object-cover"
             />
           </div>
         </section>
+
         <h1 className="text-center mt-5 text-[#C9C9C9] font-light text-[16px] about-mob-para">
           Welcome to Inqueue, where creativity meets innovation! At Inqueue, we
           specialize in Graphic Design,
@@ -31,8 +32,10 @@ function Main() {
 
       <div className="mt-4 text-center about-mob-1">
         <section className="text-center flex justify-center relative mt-8">
-          <div className="text-4xl font-bold w-2/4 text-white relative z-10">
-            <h1 className="text-3xl font-bold text-white about-mob-head-1">What We Do </h1>
+          <div className="text-4xl font-bold w-2/4 text-white relative z-10 about-mob-head-2">
+            <h1 className="text-3xl font-bold text-white about-mob-head-1">
+              What We Do{" "}
+            </h1>
           </div>
         </section>
         <h1 className="text-center mt-5 text-[#C9C9C9] font-light text-[16px] about-mob-para">
@@ -65,8 +68,10 @@ function Main() {
 
       <div className="about-mob-1">
         <section className="text-center flex justify-center relative mt-8">
-          <div className="text-3xl font-bold w-2/4 text-white relative z-10">
-            <h1 className="text-3xl font-bold text-white about-mob-head-1">Our Approach</h1>
+          <div className="text-3xl font-bold w-2/4 text-white relative z-10 about-mob-head-2">
+            <h1 className="text-3xl font-bold text-white">
+              Our Approach
+            </h1>
           </div>
         </section>
         <h1 className="text-center mt-5 text-[#C9C9C9] font-light text-[16px] about-mob-para">
@@ -84,8 +89,10 @@ function Main() {
 
       <div className="about-mob-1">
         <section className="text-center flex justify-center relative mt-8">
-          <div className="text-3xl font-bold w-2/4 text-white relative z-10">
-            <h1 className="text-3xl font-bold text-white about-mob-head-1">Why Choose Us </h1>
+          <div className="text-3xl font-bold w-2/4 text-white relative z-10 about-mob-head-2">
+            <h1 className="text-3xl font-bold text-white">
+              Why Choose Us{" "}
+            </h1>
           </div>
         </section>
         <h1 className="text-center mt-5 text-[#C9C9C9] font-light text-[16px] about-mob-para">
@@ -103,8 +110,8 @@ function Main() {
 
       <div className="about-mob-1">
         <section className="text-center flex justify-center relative mt-8">
-          <div className="text-3xl font-bold w-2/4 text-white relative z-10">
-            <h1 className="text-3xl font-bold text-white about-mob-head-1">
+          <div className="text-3xl font-bold w-2/4 text-white relative z-10 about-mob-head-2">
+            <h1 className="text-3xl font-bold text-white">
               Let’s Create Together{" "}
             </h1>
           </div>
@@ -120,8 +127,8 @@ function Main() {
         <h1 className="text-center mt-2 text-[#C9C9C9] font-light text-[16px] about-mob-para">
           something amazing together!
         </h1>
-        <div className="text-center my-8">
-          <button className="px-2.5 py-1 rounded-sm bg-[#F2B705] text-black text-sm mb-2 about-mob-para">
+        <div className="text-center my-8 main-btn-about">
+          <button className="px-2.5 py-1 rounded-sm bg-[#F2B705] text-black text-sm mb-2 about-mob-para-botton">
             Let's connect and turn your vision into reality!{" "}
           </button>
         </div>

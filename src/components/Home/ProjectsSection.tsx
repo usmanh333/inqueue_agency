@@ -27,6 +27,7 @@ const ProjectsSection = () => {
               className={`text-left border border-[#C7C7C7] p-4 rounded-3xl ${
                 index % 2 === 0 ? "bg-[#323232]" : "bg-[#323232]/20"
               } mb-10 cards-mob`}
+              key={index}
             >
               <h1 className="text-3xl font-bold">Logo and Branding</h1>
               <span className="text-xs px-2 py-1 bg-[#7E7E7E] rounded-sm mr-3">

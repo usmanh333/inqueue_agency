@@ -17,40 +17,35 @@ export default function Main() {
     <>
       <div>
         <section className="text-center flex justify-center relative mt-8">
-          <div className="text-4xl md:text-6xl font-bold w-2/4 text-white relative z-10">
+          <div className="text-4xl md:text-6xl font-bold w-2/4 text-white relative z-10 about-mob-head-2">
             <h1 className="text-4xl md:text-6xl font-bold text-white">
-              Explore Our Projects
+              Explore Our <span className="relative z-10">Projects</span>
             </h1>
           </div>
-          <div className="flex justify-end absolute bottom-[-7px] left-0 right-[29%] z-0">
+          <div className="absolute bottom-[-10px] left-[50%] transform -translate-x-[50%] pointer-events-none z-0 projects-img-mob">
             <img
               src="/label/bottom-shade.png"
               alt="inqueuestudio-linkedin"
-              className="w-[27%] object-cover"
+              className="w-[125px] sm:w-[150px] md:w-[175px] object-cover"
             />
           </div>
         </section>
       </div>
 
       <div className="flex flex-col items-center mt-12 mb-16">
-        <div
-          className="w-[80%] grid gap-4"
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(3, 1fr)", // Exactly 3 items in a row
-            gridAutoRows: "10px", // For dynamic height scaling
-          }}
-        >
-          {projects.map((project) => (
+        <div className="w-[90%] grid gap-4 projects-grid">
+          {projects.map((project, index) => (
             <div
               key={project.id}
               style={{
-                gridRowEnd: `span ${Math.ceil(parseInt(project.height) / 10)}`, // Adjust for height
+                gridRowEnd: `span ${Math.ceil(parseInt(project.height) / 15)}`, // Adjust for height
                 gridColumn: `span ${project.width}`, // Adjust for dynamic width
                 backgroundColor: "#444444",
               }}
-              className="rounded-lg flex justify-center items-center cursor-pointer"
-              onClick={()=>globalThis.location.href = `/projects/${project.id}`}
+              className="rounded-lg flex justify-center items-center cursor-pointer "
+              onClick={() =>
+                (globalThis.location.href = `/projects/${project.id}`)
+              }
             >
               <img
                 src="/icons/camera.png"
