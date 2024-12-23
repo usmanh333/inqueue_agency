@@ -302,6 +302,47 @@ body {
     width: 250px;
     max-width: 250px;
   }
+  .dynamic-main {
+    padding: 0;
+  }
+  .dynamic-sec-mob {
+    margin: 20px 0;
+  }
+  .dynamic-main-mob {
+    height: 250px;
+    border-radius: 5px;
+  }
+  .dynamic-wid-mob {
+    width: 90%;
+  }
+  .dynamic-wid-mob > h1 {
+    font-size: x-small;
+  }
+  .dynamic-gap-mob{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+  }
+  .dynamic-head-main{
+    padding: 13px;
+    text-align: center;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .dynamic-head-main > h1 {
+    font-size: medium;
+  }
+  .dynamic-head-below{
+    height: 60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .dynamic-margin{
+    margin-top: 25px;
+  }
 }
 
 .projects-grid {

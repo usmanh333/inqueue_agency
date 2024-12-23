@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function ProjectDetails() {
   const projects = [
-    { id: 1, height: "200px", width: "1" },
-    { id: 2, height: "200px", width: "1" },
+    { id: 1, height: "120px", width: "1" },
+    { id: 2, height: "120px", width: "1" },
     { id: 3, height: "100px", width: "1" },
     { id: 4, height: "150px", width: "1" },
     { id: 5, height: "150px", width: "1" },
@@ -16,9 +16,9 @@ export default function ProjectDetails() {
   return (
     <>
       {/* Section 1 */}
-      <div className="flex flex-col items-center mt-12 mb-16">
+      <div className="flex flex-col items-center mt-12 mb-16 dynamic-sec-mob">
         <div
-          className="w-full px-4 grid gap-4"
+          className="w-full px-4 grid gap-4 dynamic-main-mob"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(2, 1fr)", // 2 items per row by default
@@ -31,7 +31,7 @@ export default function ProjectDetails() {
               gridColumn: `span 2`, // Span full width of two columns
               backgroundColor: "#323232",
             }}
-            className="rounded-2xl border border-[#FFFFFF] flex justify-center items-center cursor-pointer"
+            className="dynamic-main-mob rounded-2xl border border-[#FFFFFF] flex justify-center items-center cursor-pointer"
           >
             <Image
               src="/icons/camera.png"
@@ -48,15 +48,15 @@ export default function ProjectDetails() {
 
       <div>
         <div className="flex justify-center">
-          <div className="w-[60%]  rounded-3xl">
-            <div className="flex justify-between gap-4 mt-6 mb-10">
-              <div className="w-[30%]">
-                <div className="h-16 bg-[#F0B705] rounded-t-xl py-5 px-10">
+          <div className="w-[60%]  rounded-3xl dynamic-wid-mob">
+            <div className="flex justify-between gap-4 mt-6 mb-10 dynamic-gap-mob">
+              <div className="w-[30%] dynamic-wid-mob">
+                <div className="h-16 bg-[#F0B705] rounded-t-xl py-5 px-10 dynamic-head-main">
                   <h1 className="text-xl font-[600] text-black">
                     Project Name
                   </h1>
                 </div>
-                <div className="h-16 bg-[#323232] rounded-b-xl py-3.5">
+                <div className="h-16 bg-[#323232] rounded-b-xl py-3.5 dynamic-head-below">
                   <div className="flex justify-evenly">
                     <div>
                       <h1 className="text-sm font-medium text-white">
@@ -76,7 +76,7 @@ export default function ProjectDetails() {
                 </div>
               </div>
 
-              <div className="w-[60%]">
+              <div className="w-[60%] dynamic-wid-mob">
                 <h1 className="text-start mt-2 text-[#C9C9C9] font-light text-[16px]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -108,9 +108,9 @@ export default function ProjectDetails() {
       </div>
 
       {/* Section 3 */}
-      <div className="flex flex-col items-center mt-12 mb-16">
+      <div className="flex flex-col items-center mt-12 mb-16 dynamic-margin">
         <div
-          className="w-[60%] grid gap-4"
+          className="w-[60%] dynamic-wid-mob grid gap-4"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(2, 1fr)", // 2 items per row by default
