@@ -18,6 +18,8 @@ const ServicesSection = () => {
                 src="/label/bottom-shade.png"
                 alt="inqueuestudio-linkedin"
                 className="w-[170px] max-w-[175px] sm:max-w-[178px] md:max-w-[178px] object-cover"
+                width={175}
+                height={175}
               />
             </div>
           </div>

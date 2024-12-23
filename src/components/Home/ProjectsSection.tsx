@@ -17,6 +17,8 @@ const ProjectsSection = () => {
             alt="inqueuestudio-linkedin"
             id="inqueuestudio-image"
             className="w-[25%] max-w-[175px] sm:max-w-[178px] md:max-w-[178px] object-cover"
+            width={175}
+            height={175}
           />
         </div>
       </section>

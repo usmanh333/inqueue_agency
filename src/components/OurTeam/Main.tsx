@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Main() {
   return (
@@ -16,6 +16,8 @@ export default function Main() {
               src="/label/bottom-shade.png"
               alt="inqueuestudio-linkedin"
               className="w-[110px] sm:w-[110px] md:w-[110px] object-cover"
+              width={110}
+              height={110}
             />
           </div>
         </section>

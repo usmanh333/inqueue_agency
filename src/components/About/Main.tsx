@@ -15,6 +15,8 @@ function Main() {
               src="/label/bottom-shade.png"
               alt="inqueuestudio-linkedin"
               className="w-[130px] sm:w-[130px] md:w-[130px] object-cover"
+              width={130}
+              height={130}
             />
           </div>
         </section>

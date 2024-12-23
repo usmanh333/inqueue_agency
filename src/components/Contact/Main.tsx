@@ -1,26 +1,29 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Main() {
   return (
     <>
       <div>
-      <section className="text-center flex justify-center relative mt-8">
-      <div className="text-4xl md:text-6xl font-bold w-2/4 text-white relative z-10 about-mob-head-1">
-        <h1 className="text-4xl md:text-6xl font-bold text-white relative inline-block">
-          Let&apos;s make it a <span className="relative">
-            reality!
-            <Image
-              src="/label/bottom-shade.png"
-              alt="inqueuestudio-linkedin"
-              className="absolute bottom-0 left-1/2 translate-x-[-50%] translate-y-[100%] w-[100px] sm:w-[100px] md:w-[100px] object-cover z-20 contact-img-mob"
-            />
-          </span>
-        </h1>
-      </div>
-    </section>
+        <section className="text-center flex justify-center relative mt-8">
+          <div className="text-4xl md:text-6xl font-bold w-2/4 text-white relative z-10 about-mob-head-1">
+            <h1 className="text-4xl md:text-6xl font-bold text-white relative inline-block">
+              Let&apos;s make it a{" "}
+              <span className="relative">
+                reality!
+                <Image
+                  src="/label/bottom-shade.png"
+                  alt="inqueuestudio-linkedin"
+                  className="absolute bottom-0 left-1/2 translate-x-[-50%] translate-y-[100%] w-[100px] sm:w-[100px] md:w-[100px] object-cover z-20 contact-img-mob"
+                  width={100}
+                  height={100}
+                />
+              </span>
+            </h1>
+          </div>
+        </section>
         <h1 className="text-center mt-2 text-[#C9C9C9] font-light text-[16px] about-mob-para">
-          We&apos;re excited to collaborate with you! Please share your details, &
-          we&apos;ll get
+          We&apos;re excited to collaborate with you! Please share your details,
+          & we&apos;ll get
         </h1>
         <h1 className="text-center mt-2 text-[#C9C9C9] font-light text-[16px] about-mob-para">
           back to you within 2-3 business days.
@@ -33,6 +36,8 @@ export default function Main() {
             src="/icons/phone.png"
             alt="phone-icon"
             className="w-[12px] object-cover"
+            width={12}
+            height={12}
           />
           <div className="text-[#C9C9C9] about-mob-para">123-456-789-0</div>
         </div>
@@ -41,6 +46,8 @@ export default function Main() {
             src="/icons/mail.png"
             alt="mail-icon"
             className="w-[15px] object-cover"
+            width={15}
+            height={15}
           />
           <div className="text-[#C9C9C9] about-mob-para">Inqueue@gmail.com</div>
         </div>

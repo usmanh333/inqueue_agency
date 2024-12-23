@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function ProjectDetails() {
   const projects = [
@@ -37,6 +37,8 @@ export default function ProjectDetails() {
               src="/icons/camera.png"
               alt="Project 1"
               className="w-12 h-12 opacity-50 object-contain"
+              width={12}
+              height={12}
             />
           </div>
         </div>
@@ -44,7 +46,7 @@ export default function ProjectDetails() {
 
       {/* Section 2 */}
 
-      <div >
+      <div>
         <div className="flex justify-center">
           <div className="w-[60%]  rounded-3xl">
             <div className="flex justify-between gap-4 mt-6 mb-10">
@@ -65,9 +67,7 @@ export default function ProjectDetails() {
                       </h1>
                     </div>
                     <div>
-                      <h1 className="text-sm font-medium text-white">
-                      Date
-                      </h1>
+                      <h1 className="text-sm font-medium text-white">Date</h1>
                       <h1 className="text-xs font-medium text-[#A8A8A8]">
                         xyz xyz
                       </h1>
@@ -134,6 +134,8 @@ export default function ProjectDetails() {
                 src="/icons/camera.png"
                 alt={`Project ${project.id}`}
                 className="w-12 h-12 opacity-50 object-contain"
+                width={12}
+                height={12}
               />
             </div>
           ))}

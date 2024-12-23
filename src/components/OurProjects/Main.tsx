@@ -1,5 +1,5 @@
 import React from "react";
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Main() {
   const projects = [
@@ -28,6 +28,8 @@ export default function Main() {
               src="/label/bottom-shade.png"
               alt="inqueuestudio-linkedin"
               className="w-[125px] sm:w-[150px] md:w-[175px] object-cover"
+              width={175}
+              height={175}
             />
           </div>
         </section>
@@ -52,6 +54,8 @@ export default function Main() {
                 src="/icons/camera.png"
                 alt={`Project ${project.id}`}
                 className="w-12 h-12 opacity-50 object-contain"
+                width={12}
+                height={12}
               />
             </div>
           ))}

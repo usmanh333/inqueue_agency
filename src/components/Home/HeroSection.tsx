@@ -22,6 +22,8 @@ const HeroSection = () => {
             src="/label/bottom-shade.png"
             alt="inqueuestudio-linkedin"
             className="w-[34%] max-w-[240px] sm:max-w-[400px] md:max-w-[500px] object-cover"
+            width={240}
+            height={240}
           />
         </div>
       </section>
@@ -91,6 +93,8 @@ const HeroSection = () => {
             src="/icons/play-icon.png"
             alt="inqueuestudio-linkedin"
             className="w-[70px] h-[70px] object-contain"
+            width={70}
+            height={70}
           />
         </div>
       </section>

@@ -1,6 +1,6 @@
 // src/components/TestimonialsSection.js
 import React from "react";
-import Image from 'next/image';
+import Image from "next/image";
 
 const TestimonialsSection = () => {
   return (
@@ -11,7 +11,7 @@ const TestimonialsSection = () => {
         </div>
       </div>
       <div className="flex justify-center gap-3 last1">
-        {[0, 1, 2].map((_,index) => (
+        {[0, 1, 2].map((_, index) => (
           <div className="w-[18%] services-mob-init" key={index}>
             <div
               className={`text-left border border-[#C7C7C7] p-4 rounded-lg bg-[#444444] mb-5 services-card`}
@@ -46,6 +46,8 @@ const TestimonialsSection = () => {
               src="/icons/diamond.png"
               alt="inqueuestudio-linkedin"
               className="w-[15px] h-[15px] object-cover mob-pagination"
+              width={15}
+              height={15}
             />
           </div>
         ))}
@@ -53,13 +55,17 @@ const TestimonialsSection = () => {
           src="/icons/diamond2.png"
           alt="inqueuestudio-linkedin"
           className="w-[15px] h-[15px] object-cover mob-pagination"
+          width={15}
+          height={15}
         />
-        {[0, 1].map((_,index) => (
+        {[0, 1].map((_, index) => (
           <div key={index}>
             <Image
               src="/icons/diamond.png"
               alt="inqueuestudio-linkedin"
               className="w-[15px] h-[15px] object-cover mob-pagination"
+              width={15}
+              height={15}
             />
           </div>
         ))}
