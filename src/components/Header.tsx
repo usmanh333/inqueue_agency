@@ -15,7 +15,7 @@ const Header: React.FC = () => {
               <li className="nav-item mx-2">
                 <Link
                   className="nav-link text-[#C9C9C9] font-[400] text-sm"
-                  href="projects"
+                  href="/projects"
                 >
                   Projects
                 </Link>
@@ -23,7 +23,7 @@ const Header: React.FC = () => {
               <li className="nav-item mx-2">
                 <Link
                   className="nav-link text-[#C9C9C9] font-[400] text-sm"
-                  href="ourteam"
+                  href="/ourteam"
                 >
                   Team
                 </Link>

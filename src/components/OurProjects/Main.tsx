@@ -37,25 +37,25 @@ export default function Main() {
 
       <div className="flex flex-col items-center mt-12 mb-16">
         <div className="w-[90%] grid gap-4 projects-grid">
-        {projects.map((project) => (
-  <div
-    key={project.id}
-    style={{
-      gridRowEnd: `span ${Math.ceil(parseInt(project.height) / 15)}`, // Adjust for height
-      gridColumn: `span ${project.width}`, // Adjust for dynamic width
-      backgroundColor: "#444444", // Fallback background color
-      backgroundImage: `url(/images/z.jpg)`, // Background image
-      backgroundSize: "cover", // Ensure the image covers the entire div
-      backgroundPosition: "center", // Center the image
-      backgroundRepeat: "no-repeat", // Prevent repeating the image
-    }}
-    className="rounded-lg flex justify-center items-center cursor-pointer"
-    onClick={() => (globalThis.location.href = `/projects/${project.id}`)}
-  >
-    {/* Optional: Add a title or overlay content */}
-    <span className="text-white font-bold">Project {project.id}</span>
-  </div>
-))}
+          {projects.map((project) => (
+            <div
+              key={project.id}
+              style={{
+                gridRowEnd: `span ${Math.ceil(parseInt(project.height) / 15)}`, // Adjust for height
+                gridColumn: `span ${project.width}`, // Adjust for dynamic width
+                backgroundColor: "#444444", // Fallback background color
+                backgroundImage: `url(/images/z.jpg)`, // Background image
+                backgroundSize: "cover", // Ensure the image covers the entire div
+                backgroundPosition: "center", // Center the image
+                backgroundRepeat: "no-repeat", // Prevent repeating the image
+              }}
+              className="rounded-lg flex justify-center items-center cursor-pointer"
+              onClick={() => (globalThis.location.href = `/projects/${project.id}`)}
+            >
+              {/* Optional: Add a title or overlay content */}
+              <span className="text-white font-bold">Project {project.id}</span>
+            </div>
+          ))}
 
         </div>
       </div>
